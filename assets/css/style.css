@@ -103,8 +103,27 @@ img {
 
 /* akhir header */
 
-/* #banner .owl-carousel img {
-    width: 200%;
+
+/* banner */
+#banner {
+    margin-top: 5%;
+}
+
+/*  */
+
+/* utilities */
+.owl-nav {
+    visibility: hidden;
+}
+
+/* akhir utilities */
 
 
-} */
+/* mobile version */
+@media screen and (max-width: 576px) {
+    #banner {
+        margin-top: 0;
+    }
+}
+
+/* akhir mobile version */

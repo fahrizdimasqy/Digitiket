@@ -103,7 +103,7 @@
     <!-- akhir header -->
 
     <!-- banner -->
-    <section id="banner" class="mt-5">
+    <section id="banner">
         <div class="owl-carousel">
             <img src="assets/img/banner01.png" alt="">
             <img src="assets/img/banner02.jpg" alt="">
@@ -141,10 +141,20 @@
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
                 center: true,
-                items: 2,
                 loop: true,
-                margin: 10,
-                autoWidth: true,
+              
+                
+                responsiveClass: true,
+                responsive: {
+                    300: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 2,
+                        margin: 10,
+                        autoWidth: true,
+                    }
+                }
             });
         });
     </script>
