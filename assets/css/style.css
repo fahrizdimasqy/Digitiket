@@ -1,0 +1,110 @@
+/* header */
+#header-web {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 4px 2px rgba(0, 0, 0, .15);
+    border-top: 1px solid #eee;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding-top: 10px;
+}
+
+
+#form-search input {
+    width: 100%;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .1);
+    border: solid 1px #eee;
+    border-radius: 3px;
+    padding: 13px 10px 13px 40px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    outline: none;
+}
+
+#form-search input[type='text']:focus,
+.clickdform textarea:focus,
+.clickdform select:focus {
+    border: 2px solid #bc67f0 !important;
+    background: none !important;
+}
+
+#form-search .input-icon {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto 5px;
+    z-index: 5;
+}
+
+#form-search .input-with-icon {
+    position: relative;
+    margin-top: 15px;
+}
+
+.btn-login {
+    color: #bc67f0;
+    background-color: rgba(112, 20, 169, .15);
+    margin-right: 10%;
+    /* border-color: #007bff; */
+}
+
+.btn-login:hover {
+    background-color: #bc67f0;
+    color: #fff;
+}
+
+#menu-utama {
+    margin-top: 25px;
+    border-top: 1px solid #eee;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#menu-utama .nav-link {
+    border-left: 1px solid #eee;
+    padding: 13px 30px;
+    transition: background-color .25s ease;
+}
+
+#menu-utama .nav-link:hover {
+    background-color: rgba(112, 20, 169, .15);
+}
+
+.nav-icon {
+    margin-right: 10px;
+}
+
+#menu-utama .nav-link.btn-buat-tiket {
+    color: white;
+    background-color: #7014A9;
+    border: 1px solid #7014A9;
+}
+
+#menu-utama .nav-link.btn-buat-tiket:hover {
+    color: white;
+    background-color: #3d055f;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #7014A9;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+/* akhir header */
+
+/* #banner .owl-carousel img {
+    width: 200%;
+
+
+} */

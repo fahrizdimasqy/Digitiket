@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header-web">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Frame.png" alt="" class="ml-5">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form id="form-search" action="/v/search" method="GET" class="col-lg-7 ml-lg-5 mr-lg-auto px-0 px-lg-2">
+                    <div class="input-with-icon">
+                        <img class="input-icon" src="assets/img/icon-search.svg" alt="">
+                        <input name="keyword" load-key="" type="text" autocomplete="off"
+                            placeholder="Temukan Event, Wahana Wisata , Virtual Tour, Lain-lain.">
+                        <ul class="dropdown-menu">
+                            <li class="result-template d-none">
+                                <a class="event-list-link" href="#">
+                                    <div class="event-list">
+                                        <div class="event-list-title">Event Title</div>
+                                        <div class="event-list-address">Event Address</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-login"> <i class="fa fa-sign-in"></i> Login</button>
+            </div>
+        </nav>
+        <!-- akhir navbar -->
+
+        <!-- menu utama -->
+        <nav id="menu-utama" class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container d-flex justify-content-between">
+                <div class="collapse navbar-collapse" id="nav-main">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="nav-icon" src="assets/img/icon-attraction.svg" alt="">Attraction
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="nav-icon" src="assets/img/icon-event.svg" alt="">Event
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="nav-icon" src="assets/img/icon-virtual-tour.svg"
+                                    alt="Virtual Tour Indonesia">Virtual Tour <span
+                                    class="badge badge-primary bg-brand-1 ml-2">New</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="pilihKota" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="nav-icon" src="assets/img/icon-location.svg" alt="">
+                                Semarang
+                            </a>
+                            <div id="#" class="dropdown-menu py-4" aria-labelledby="#">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn-buat-tiket">
+                                <img src="assets/img/icon-plus.svg" alt="" class="nav-icon">
+                                Buat Tiket
+                            </a>
+                        </li>
+
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link text-left bg-brand-2" href="/auth/login?fallback=%2F">
+                                <i class="nav-link-icon ion-log-in"></i>Login </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- akhir menu utama -->
+    </header>
+    <!-- akhir header -->
+
+    <!-- banner -->
+    <section id="banner" class="mt-5">
+        <div class="owl-carousel">
+            <img src="assets/img/banner01.png" alt="">
+            <img src="assets/img/banner02.jpg" alt="">
+            <img src="assets/img/banner02.jpg" alt="">
+        </div>
+    </section>
+    <!-- akhir banner -->
+
+    <!-- event -->
+    <section id="event" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="mb-4">Rekomendasi Tiket</h3>
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/download 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir event -->
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                center: true,
+                items: 2,
+                loop: true,
+                margin: 10,
+                autoWidth: true,
+            });
+        });
+    </script>
+</body>
+
+</html>
