@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -101,10 +105,9 @@
         <!-- akhir menu utama -->
     </header>
     <!-- akhir header -->
-
     <!-- banner -->
     <section id="banner">
-        <div class="owl-carousel">
+        <div class="banner-carousel owl-carousel">
             <img src="assets/img/banner01.png" alt="">
             <img src="assets/img/banner02.jpg" alt="">
             <img src="assets/img/banner02.jpg" alt="">
@@ -113,18 +116,90 @@
     <!-- akhir banner -->
 
     <!-- event -->
-    <section id="event" class="mt-5">
+    <section id="event" class="mt-5 mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <h3 class="mb-4">Rekomendasi Tiket</h3>
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/download 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-carousel owl-carousel owl-theme">
+                        <div class="card rekomendasi-card" >
+                            <img src="assets/img/6541.png" class="card-img-top card-carousel owl-carousel" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              
+                              <li class="list-group-item">Dapibus ac facilisis in</li>
+
+                            </ul>
+                            
+                          </div>
+                        <div class="card rekomendasi-card">
+                            <img src="assets/img/65431.png" class="card-img-top card-carousel owl-carousel" alt="...">
+                            <div class="card-body card-large">
+                                <h5 class="card-title">New Normal Waterpark Callings</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua..</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Cras justo odio</li>
+                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                       
+                                      </ul>
+                            </div>
+                        </div>
+                        <div class="card rekomendasi-card">
+                            <img src="assets/img/65432.png" class="card-img-top card-carousel owl-carousel" alt="...">
+                            <div class="card-body card-large">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card rekomendasi-card">
+                            <img src="assets/img/65433.png" class="card-img-top card-carousel owl-carousel" alt="...">
+                            <div class="card-body card-large">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="mb-4">Tranding Event</h3>
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/6542.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/6543.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck mt-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/6543.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">This card has supporting text below as a natural lead-in to.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/6543.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,31 +208,100 @@
     </section>
     <!-- akhir event -->
 
+    <!-- new normal -->
+    <section id="new-normal" class="mb-5">
+        <div class="container">
+            <h2>Cara baru piknik #New Normal</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional
+                                    content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This card has even longer content than the first to show that
+                                    equal
+                                    height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This card has even longer content than the first to show that
+                                    equal
+                                    height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir new normal -->
+
+    <!--  atur -->
+    <section id="atur" class="bg-light">
+        <div class="jumbotron">
+            <div class="main container mt-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="assets/img/diver 1.svg" alt="" class="main-image">
+
+                    </div>
+                    <div class="col-md-7 mt-5">
+                        <h3 class="mt-5">Atur Liburanmu Biar ga Ganggu
+                            Kerjaanmu</h3>
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus labore ratione sint minus itaque consectetur iure, soluta error officiis magni ex? Id, numquam repellat consequatur corrupti iste sapiente. Soluta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/img/diver1.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit minus dicta earum quis reprehenderit voluptatum porro, explicabo, et tenetur mollitia. Quae eveniet exercitationem beatae sint fuga voluptatibus iusto nisi.</p>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- akhir atur -->
+
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                center: true,
-                loop: true,
-              
-                
-                responsiveClass: true,
-                responsive: {
-                    300: {
-                        items: 1,
-                    },
-                    1000: {
-                        items: 2,
-                        margin: 10,
-                        autoWidth: true,
-                    }
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
