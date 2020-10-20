@@ -1,6 +1,11 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 /* header */
 #header-web {
-    position: relative;
+    /* position: relative; */
+    position: fixed;
     background: #fff;
     box-shadow: 0 1px 4px 2px rgba(0, 0, 0, .15);
     border-top: 1px solid #eee;
@@ -10,6 +15,7 @@
     z-index: 3;
     padding-top: 10px;
 }
+
 
 
 #form-search input {
@@ -106,25 +112,147 @@ img {
 
 /* banner */
 #banner {
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    margin-top: 13.9%;
 }
 
 /* akhir banner */
 
 /* event */
-#event .card.rekomendasi-card {
-    width: 500px;
-    height: 520px;
+#event .card .rekomendasi-card {
+    width: 547px;
+}
+
+/* #event .card {
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+} */
+
+/* #eventSome quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content .card-tranding {
+    width: 115%;
+} */
+
+#event .card-tranding .card-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #2D2D2D;
+
+}
+
+#event .card-tranding p {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 142.5%;
+    letter-spacing: 0.04em;
+    color: #413F3F;
+}
+
+#event .card-tranding li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    color: #000000;
 }
 
 /* akhir event */
 
 
+/* new normal */
+#new-normal .card {
+    width: 108%;
+}
+
+#new-normal .card .card-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #2D2D2D;
+}
+
+#new-normal .card p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 142.5%;
+    letter-spacing: 0.04em;
+    color: #413F3F;
+}
+
+#new-normal .card li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+/* akhir new normal */
+
+/* atur */
+#atur .jumbotron h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+/* akhir atur */
+#piknik-asyik .card {
+    width: 108%;
+}
+
+#piknik-asyik .card .card-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #2D2D2D;
+}
+
+#piknik-asyik .card p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 142.5%;
+    letter-spacing: 0.04em;
+    color: #413F3F;
+}
+
+#piknik-asyik .card li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+/* piknik asyik */
+/* akhir piknik asyik */
 
 /* mobile version */
 @media screen and (max-width: 576px) {
     #banner {
-        margin-top: 0;
+        margin-top: 29%;
+    }
+
+    #atur .jumbotron img {
+        width: 100%;
     }
 }
 
@@ -136,11 +264,43 @@ img {
 
 
 /* utilities */
-.card-large,
+.digitiket-font {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.digitiket-font span {
+    color: #d14e8d;
+    text-decoration: none;
+}
+
+.card-link {
+    list-style-type: none;
+    color: black;
+}
+
+/* .card-large,
 .card-small {
     position: relative;
     top: 0;
     transition: all .25s ease;
 }
+
+.multi-cards {
+    margin: -8px;
+}
+
+.multi-cards .card {
+    margin: 8px;
+} */
+
+
 
 /* akhir utilities */

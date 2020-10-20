@@ -35,6 +35,23 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $(".card-tranding-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        dots: true,
+        autoplay:true,    
+        responsive:{
+            300:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+});
+
 // $('.single-item').slick({
 //     dots: true,
 //     infinite: true,
