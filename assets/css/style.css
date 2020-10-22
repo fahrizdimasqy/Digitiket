@@ -193,6 +193,10 @@ img {
 
 /* desktop version */
 @media (min-width: 992px) {
+    #event .card-tranding-carousel .col-md-5{
+        margin: 0 3% 3% 0;
+        padding: 0;
+    }
 
     #piknik-asyik .card,
     #baru-apanih .card,
@@ -215,8 +219,16 @@ img {
 
 /* mobile version */
 @media screen and (max-width: 576px) {
+    
+    .btn-login {
+    margin-top: 3%;
+    }
+
     #banner {
         margin-top: 25%;
+    }
+    #event .card-tranding-carousel .col-md-5{
+        margin-bottom: 5%;
     }
 
     #atur .jumbotron img {
