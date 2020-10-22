@@ -193,10 +193,21 @@ img {
 
 /* desktop version */
 @media (min-width: 992px) {
+
+    #event .text-tranding {
+    margin-left: 8.5%;
+    }
+    
     #event .card-tranding-carousel .col-md-5{
-        margin: 0 3% 3% 0;
+        margin: 0 5% 3% 0;
         padding: 0;
     }
+
+    #event .card-tranding-carousel .card{
+        width: 106%;
+        margin-left: 50px;
+    }
+
 
     #piknik-asyik .card,
     #baru-apanih .card,
@@ -316,6 +327,7 @@ img {
     letter-spacing: 0.04em;
     color: #000000;
 }
+
 
 
 /* akhir utilities */
