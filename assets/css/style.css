@@ -377,10 +377,17 @@ img {
     border-color: #7014A9;
 }
 
-/* .btn-secondary {
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #bc67f0;
+    border-color: #bc67f0;
+}
+
+.btn-secondary {
     color: #bc67f0;
     background-color: rgba(112, 20, 169, .15);
-    margin-right: 10%;
     border-color: rgba(112, 20, 169, .15);
 }
 
@@ -388,7 +395,15 @@ img {
     background-color: #bc67f0;
     color: #fff;
     border-color: rgba(112, 20, 169, .15);
-} */
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #bc67f0;
+    border-color: #bc67f0;
+}
 
 
 /* akhir utilities */
