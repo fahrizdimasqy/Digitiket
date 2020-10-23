@@ -167,6 +167,28 @@ img {
 
 /* akhir atur */
 
+/* pemesanan */
+#pemesanan .card .table {
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border: none;
+}
+
+#pemesanan .form-check-label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+#pemesanan .form-check-label span {
+    color: #CB367E;
+}
 
 /* bottom */
 #bottom h3 {
@@ -220,6 +242,26 @@ img {
         margin-top: 15%;
     }
 
+    #pemesanan .card .table {
+        height: 44px;
+    }
+
+    #pemesanan .card td img {
+        margin-top: 15%;
+    }
+
+    #pemesanan .card td p {
+        margin-left: -25%;
+        margin-top: 4%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.04em;
+        color: #0F93BD;
+    }
+
     #pemesanan form {
         background: #F6F6F6;
         border: 1px solid #F4F4F4;
@@ -254,18 +296,6 @@ img {
         margin-left: 10%;
     }
 
-    #pemesanan .form-check-label {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 18px;
-        letter-spacing: 0.04em;
-        color: #000000;
-    }
-
-    #pemesanan .form-check-label span {
-        color: #CB367E;
-    }
 
     /* bottom */
     #bottom .container .kolaborasi-img {
@@ -309,6 +339,10 @@ img {
     /* pemesanan */
     #pemesanan {
         margin-top: 35%;
+    }
+
+    #pemesanan .card .table {
+        margin-top: 5%;
     }
 
     #pemesanan form {
