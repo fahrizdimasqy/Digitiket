@@ -74,13 +74,4 @@ $('.card-tranding-carousel').slick({
   ]
 });
 
-// input no ponsel
-var input = document.querySelector('#phone');
-var iti = window.intlTelInput(input, {
-  utilsScript: 'utils.js'
-})
-
-// $('.single-item').slick({
-//     dots: true,
-//     infinite: true,
-// });
+new Pidie();

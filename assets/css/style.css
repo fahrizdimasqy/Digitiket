@@ -508,4 +508,8 @@ img {
     color: #CB367E !important;
 }
 
+.pd-telephone-input input {
+    padding-left: 70px !important;
+}
+
 /* akhir utilities */
