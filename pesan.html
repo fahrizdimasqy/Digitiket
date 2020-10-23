@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/intlTelInput.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header-web">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/Frame.png" alt="" class="ml-5">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <form id="form-search" method="#" class="col-lg-7 ml-lg-5 mr-lg-auto px-0 px-lg-2">
+          <div class="input-with-icon">
+            <img class="input-icon" src="assets/img/icon-search.svg" alt="">
+            <input name="keyword" load-key="" type="text" autocomplete="off"
+              placeholder="Temukan Event, Wahana Wisata , Virtual Tour, Lain-lain.">
+            <ul class="dropdown-menu">
+              <li class="result-template d-none">
+                <a class="event-list-link" href="#">
+                  <div class="event-list">
+                    <div class="event-list-title">Event Title</div>
+                    <div class="event-list-address">Event Address</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </form>
+        <button type="button" class="btn btn-login">
+          <i class="fa fa-sign-in"></i>
+          Login</button>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- menu utama -->
+    <nav id="menu-utama" class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container d-flex justify-content-between">
+        <div class="collapse navbar-collapse" id="nav-main">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img class="nav-icon" src="assets/img/icon-attraction.svg" alt="">Attraction
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img class="nav-icon" src="assets/img/icon-event.svg" alt="">Event
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img class="nav-icon" src="assets/img/icon-virtual-tour.svg" alt="Virtual Tour Indonesia">Virtual Tour
+                <span class="badge badge-primary bg-brand-1 ml-2">New</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="pilihKota" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="nav-icon" src="assets/img/icon-location.svg" alt="">
+                Semarang
+              </a>
+              <div id="#" class="dropdown-menu py-4" aria-labelledby="#"></div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link btn-buat-tiket">
+                <img src="assets/img/icon-plus.svg" alt="" class="nav-icon">
+                Buat Tiket
+              </a>
+            </li>
+            <li class="nav-item d-lg-none">
+              <a class="nav-link text-left bg-brand-2" href="/auth/login?fallback=%2F">
+                <i class="nav-link-icon ion-log-in"></i>Login
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir menu utama -->
+  </header>
+  <!-- akhir header -->
+
+  <!-- pemesanan -->
+  <section id="pemesanan">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h4>Rincian Harga</h4>
+              <table class="table">
+                <thead>
+                  <tr class="table-active">
+                    <td>2x</td>
+                    <td>Tiket Dewasa</td>
+                    <td>IDR 80.000</td>
+                  </tr>
+                  <tr>
+                    <td>2x</td>
+                    <td>Tiket Anak-Anak (3 - 7 Tahun)</td>
+                    <td>IDR 60.000</td>
+                  </tr>
+                  <tr class="table-violet">
+                    <td>2x</td>
+                    <td>Tiket Anak-Anak (3 - 7 Tahun)</td>
+                    <td>IDR 60.000</td>
+                  </tr>
+              </table>
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="assets/img/azhar-galih-IFcmpsiuY3k-unsplash 1.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <table class="table">
+              <tr class="text-center">
+                <td><img src="assets/img/logo-instagram.png"></td>
+                <td>Login untuk pemesanan tiket lebih cepat</td>
+                <td> <button type="button" class="btn btn-login"> <i class="fa fa-sign-in"></i> Login</button></td>
+              </tr>
+            </table>
+          </div>
+          <form class="mt-4 mb-5">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control is-invalid" id="email" placeholder="Email" required>
+              <div class="invalid-feedback">
+                *Tiket akan dikirimkan melalui email.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="nama-lengkap">Nama Lengkap</label>
+              <input type="text" class="form-control is-invalid" id="nama-lengkap" placeholder="Nama Lengkap" required>
+              <div class="invalid-feedback">
+                *Isi nama tamu sesuai KTP/Paspor/SIM (tanpa tanda baca/gelar)
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="noponsel">Nomor Ponsel</label>
+              <input type="tel" class="form-control" id="mobile-number" placeholder="" required>
+            </div>
+            <div class="form-group">
+              <div class="btn-group btn-group-toggle" data-toggle="buttons" style="width: 100% !important;">
+                <label class=" btn btn-secondary active">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+                </label>
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="col-md-12 text-center">
+              <button type="submit" class="btn btn-primary col-sm-6 d">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir pemesanan -->
+
+  <!-- bottom -->
+  <section id="bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Langganan Newsletter</h3>
+          <p>Jadi orang yang pertama tahu info & promosi Wisata, Event, Terbaru. Gratis.</p>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+        <div class="col-md-3">
+          <h3>Perusahaan</h3>
+          <p>
+            Karir
+            </br>Blog
+            </br>Jadi
+            </br>Partner DigiTiket
+            </br>DigiTiket Press Room
+            </br>Brand Guidelines
+            </br>
+            Alamat Kantor
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h3>Bantuan</h3>
+          <p>Cara Pesan
+            </br>
+            FAQ
+            </br>Kebijakan
+            </br>Kebijakan dan Privasi
+            </br>Syarat dan Ketentuan</p>
+        </div>
+        <div class="col-md-3">
+          <h3 class="ml-1">Berkolaborasi</h3>
+          <img src="assets/img/image 2.svg" alt="" class="kolaborasi-img">
+          <h3 class="mt-3">Metode Pembayaran</h3>
+          <img src="assets/img/image 1.svg" alt="" class="pembayaran-img">
+        </div>
+      </div>
+  </section>
+  <!-- akhir bottom -->
+  <!-- footer -->
+  <footer class="pb-3 pl-3">
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          Copyright © 2020 - DigiTiket. All rights reserved.
+        </div>
+        <div class="col-md-4">
+          <img src="assets/img/logo-instagram.png" alt="">
+          <img src="assets/img/Vector (8).png" alt="">
+          <img src="assets/img/Vector (9).png" alt="">
+          <img src="assets/img/Vector (10).png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- akhir footer -->
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/intlTelInput.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

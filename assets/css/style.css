@@ -195,15 +195,15 @@ img {
 @media (min-width: 992px) {
 
     #event .text-tranding {
-    margin-left: 8.5%;
+        margin-left: 8.5%;
     }
-    
-    #event .card-tranding-carousel .col-md-5{
+
+    #event .card-tranding-carousel .col-md-5 {
         margin: 0 5% 3% 0;
         padding: 0;
     }
 
-    #event .card-tranding-carousel .card{
+    #event .card-tranding-carousel .card {
         width: 106%;
         margin-left: 50px;
     }
@@ -213,6 +213,23 @@ img {
     #baru-apanih .card,
     #new-normal .card {
         width: 108%;
+    }
+
+    /* pemesanan */
+    #pemesanan {
+        margin-top: 15%;
+    }
+
+    #pemesanan form {
+        background: #F6F6F6;
+        border: 1px solid #F4F4F4;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 10px;
+    }
+
+    #pemesanan .card .card-img {
+        margin: 5% 0 5% 5%;
     }
 
     #bottom .container .kolaborasi-img {
@@ -230,15 +247,16 @@ img {
 
 /* mobile version */
 @media screen and (max-width: 576px) {
-    
+
     .btn-login {
-    margin-top: 3%;
+        margin-top: 3%;
     }
 
     #banner {
         margin-top: 25%;
     }
-    #event .card-tranding-carousel .col-md-5{
+
+    #event .card-tranding-carousel .col-md-5 {
         margin-bottom: 5%;
     }
 
@@ -250,6 +268,19 @@ img {
     #baru-apanih .card,
     #new-normal .card {
         margin-bottom: 20px;
+    }
+
+    /* pemesanan */
+    #pemesanan {
+        margin-top: 35%;
+    }
+
+    #pemesanan form {
+        background: #F6F6F6;
+        border: 1px solid #F4F4F4;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 10px;
     }
 
     #bottom input {
@@ -328,6 +359,36 @@ img {
     color: #000000;
 }
 
+.table-violet,
+.table-violet>td,
+.table-violet>th {
+    background-color: #EADCF2;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7014A9;
+    border-color: #7014A9;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6014A9;
+    border-color: #7014A9;
+}
+
+/* .btn-secondary {
+    color: #bc67f0;
+    background-color: rgba(112, 20, 169, .15);
+    margin-right: 10%;
+    border-color: rgba(112, 20, 169, .15);
+}
+
+.btn-secondary:hover {
+    background-color: #bc67f0;
+    color: #fff;
+    border-color: rgba(112, 20, 169, .15);
+} */
 
 
 /* akhir utilities */
