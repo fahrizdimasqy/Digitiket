@@ -75,7 +75,10 @@ $('.card-tranding-carousel').slick({
 });
 
 // input no ponsel
-$("#mobile-number").intlTelInput();
+var input = document.querySelector('#phone');
+var iti = window.intlTelInput(input, {
+  utilsScript: 'utils.js'
+})
 
 // $('.single-item').slick({
 //     dots: true,

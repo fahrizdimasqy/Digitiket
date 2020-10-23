@@ -136,7 +136,7 @@
               </table>
               <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <img src="assets/img/azhar-galih-IFcmpsiuY3k-unsplash 1.png" class="card-img" alt="...">
                   </div>
                   <div class="col-md-8">
@@ -188,7 +188,7 @@
             </div>
             <div class="form-group">
               <label for="noponsel">Nomor Ponsel</label>
-              <input type="tel" class="form-control" id="mobile-number" placeholder="" required>
+              <input type="tel" class="form-control" id="phone" placeholder="" required>
             </div>
             <div class="form-group">
               <div class="btn-group btn-group-toggle" data-toggle="buttons" style="width: 100% !important;">
@@ -286,6 +286,9 @@
   <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/intlTelInput.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    $("#mobile-number").intlTelInput();
+  </script>
 </body>
 
 </html>

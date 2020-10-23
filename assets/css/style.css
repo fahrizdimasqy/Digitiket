@@ -153,8 +153,6 @@ img {
 /* akhir event */
 
 
-
-
 /* atur */
 #atur .jumbotron h3 {
     font-style: normal;
@@ -345,12 +343,37 @@ img {
         margin-top: 5%;
     }
 
+    #pemesanan .card td img {
+        margin-top: 35%;
+    }
+
+    #pemesanan .card td p {
+        margin-left: -5%;
+        margin-top: 10%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.04em;
+        color: #0F93BD;
+    }
+
     #pemesanan form {
         background: #F6F6F6;
         border: 1px solid #F4F4F4;
         box-sizing: border-box;
         border-radius: 3px;
         padding: 10px;
+    }
+
+    #pemesanan .card-text.jadwal {
+        margin: -8% 0 0 15%;
+    }
+
+    #pemesanan .alert-text {
+        margin-top: 4%;
+        margin-left: 5%;
     }
 
     #bottom input {
