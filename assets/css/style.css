@@ -228,10 +228,46 @@ img {
         padding: 10px;
     }
 
-    #pemesanan .card .card-img {
-        margin: 5% 0 5% 5%;
+    #pemesanan .card .card-title {
+        margin-left: 5%;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.04em;
     }
 
+    #pemesanan .card .card-img {
+        margin: 12% 0 0 10%;
+    }
+
+    #pemesanan .icon-kalender {
+        margin-left: 20%;
+    }
+
+    #pemesanan .card-text.jadwal {
+        margin-left: -30%;
+        margin-top: 4%;
+    }
+
+    #pemesanan .alert-text {
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+
+    #pemesanan .form-check-label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+
+    #pemesanan .form-check-label span {
+        color: #CB367E;
+    }
+
+    /* bottom */
     #bottom .container .kolaborasi-img {
         margin-left: -1%;
     }
@@ -405,5 +441,14 @@ img {
     border-color: #bc67f0;
 }
 
+
+.alert-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #CB367E !important;
+}
 
 /* akhir utilities */
