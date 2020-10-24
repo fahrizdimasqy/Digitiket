@@ -476,6 +476,7 @@ img {
     color: #fff;
     background-color: #bc67f0;
     border-color: #bc67f0;
+    z-index: 0;
 }
 
 .btn-secondary {
@@ -496,6 +497,7 @@ img {
     color: #fff;
     background-color: #bc67f0;
     border-color: #bc67f0;
+    z-index: 0;
 }
 
 
