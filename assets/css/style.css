@@ -269,7 +269,7 @@ img {
     }
 
     #pemesanan .card .card-title {
-        margin-left: 5%;
+        margin-left: 25%;
         font-weight: bold;
         font-size: 18px;
         line-height: 22px;
@@ -278,20 +278,24 @@ img {
 
     #pemesanan .card .card-img {
         margin: 12% 0 0 10%;
+        width: 191px;
+        height: 127px;
+        object-fit: cover;
+        /* width: 90%; */
     }
 
     #pemesanan .icon-kalender {
-        margin-left: 20%;
+        margin-left: 90%;
     }
 
     #pemesanan .card-text.jadwal {
-        margin-left: -30%;
+        margin-left: -2%;
         margin-top: 4%;
     }
 
     #pemesanan .alert-text {
         margin-top: 3%;
-        margin-left: 10%;
+        margin-left: 27%;
     }
 
 
